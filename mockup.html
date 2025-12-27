@@ -1,0 +1,478 @@
+<!-- mockup.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Music Transfer - Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --primary-color: #5f2e0a;   /* marrón principal */
+      --secondary-color: #5f2e0a; /* mismo tono para consistencia */
+      --accent-color: #dec290;    /* beige claro para fondos */
+      --background-color: #d1b684;/* beige muy claro para fondo general */
+      --text-color: #5D4037;      /* texto principal */
+      --text-light: #8D6E63;      /* texto secundario */
+      --white: #FFFFFF;
+
+      /* extras en gama marrón */
+      --danger-color: #7a2a1a;    /* marrón rojizo para avisos/errores */
+      --border-color: #b18a5a;    /* bordes suaves */
+      --card-bg: #f1e0bc;         /* variante de beige para tarjetas */
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background-color: var(--primary-color);
+      color: var(--white);
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar__brand {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .navbar__icon {
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      border: 2px solid var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--white);
+    }
+
+    .navbar__links {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .navbar__link {
+      color: var(--white);
+      text-decoration: none;
+      opacity: 0.9;
+    }
+
+    .navbar__link--primary {
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .navbar__link:hover {
+      opacity: 1;
+    }
+
+    .page {
+      flex: 1;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .page__inner {
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    .page-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .page-header__title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+
+    .page-header__subtitle {
+      font-size: 0.95rem;
+      color: var(--text-light);
+    }
+
+    .stats-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .stat-card {
+      background-color: var(--card-bg);
+      border-radius: 0.75rem;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border-color);
+      min-width: 150px;
+      flex: 1;
+    }
+
+    .stat-card__label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-light);
+      letter-spacing: 0.06em;
+      margin-bottom: 0.25rem;
+    }
+
+    .stat-card__value {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+      gap: 1.25rem;
+    }
+
+    .card {
+      background-color: var(--accent-color);
+      border-radius: 0.75rem;
+      border: 1px solid var(--border-color);
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+
+    .card__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .card__title {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .card__subtitle {
+      font-size: 0.8rem;
+      color: var(--text-light);
+    }
+
+    .btn {
+      border-radius: 999px;
+      border: none;
+      padding: 0.4rem 0.9rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background-color: transparent;
+    }
+
+    .btn--primary {
+      background-color: var(--primary-color);
+      color: var(--white);
+    }
+
+    .btn--ghost {
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      background-color: rgba(255,255,255,0.4);
+    }
+
+    .btn:focus {
+      outline: 2px solid rgba(0,0,0,0.15);
+      outline-offset: 2px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      background-color: rgba(95,46,10,0.08);
+      color: var(--primary-color);
+    }
+
+    .playlists {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+
+    .playlist {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.55rem 0.65rem;
+      border-radius: 0.65rem;
+      background-color: rgba(255,255,255,0.5);
+    }
+
+    .playlist__meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .playlist__icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 0.6rem;
+      background-color: var(--primary-color);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+    }
+
+    .playlist__title {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .playlist__info {
+      font-size: 0.75rem;
+      color: var(--text-light);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      background-color: rgba(95,64,55,0.1);
+      color: var(--text-color);
+      font-size: 0.7rem;
+    }
+
+    .activity-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .activity {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      padding-bottom: 0.45rem;
+      border-bottom: 1px dashed rgba(177,138,90,0.5);
+    }
+
+    .activity:last-child {
+      border-bottom: none;
+    }
+
+    .activity__title {
+      font-weight: 500;
+    }
+
+    .activity__meta {
+      color: var(--text-light);
+      font-size: 0.75rem;
+    }
+
+    .activity__status {
+      color: var(--primary-color);
+      font-size: 0.75rem;
+    }
+
+    footer {
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      color: var(--text-light);
+      text-align: center;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+
+      .navbar__links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 0.75rem;
+      }
+
+      .layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .page {
+        padding: 0.75rem;
+      }
+
+      .page-header__title {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar__brand">
+      <div class="navbar__icon">MT</div>
+      <span>Music Transfer</span>
+    </div>
+    <nav class="navbar__links">
+      <a href="#" class="navbar__link">Dashboard</a>
+      <a href="#" class="navbar__link">Historial</a>
+      <a href="#" class="navbar__link navbar__link--primary">Cerrar sesión</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page__inner">
+      <section class="page-header">
+        <h1 class="page-header__title">Tus playlists, en ambas plataformas</h1>
+        <p class="page-header__subtitle">
+          Conecta Spotify, revisa tus playlists y envíalas a YouTube Music en pocos clics. Todo en un entorno cálido, minimalista y 100% responsivo.
+        </p>
+      </section>
+
+      <section class="stats-bar">
+        <article class="stat-card">
+          <div class="stat-card__label">Playlists sincronizadas</div>
+          <div class="stat-card__value">12</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-card__label">Temas transferidos</div>
+          <div class="stat-card__value">486</div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-card__label">Última ejecución</div>
+          <div class="stat-card__value">Hoy · 11:42</div>
+        </article>
+      </section>
+
+      <section class="layout">
+        <article class="card">
+          <header class="card__header">
+            <div>
+              <h2 class="card__title">Playlists de Spotify</h2>
+              <p class="card__subtitle">Selecciona una playlist para enviarla a YouTube Music.</p>
+            </div>
+            <button class="btn btn--ghost">
+              <span>Actualizar</span>
+            </button>
+          </header>
+
+          <div class="playlists">
+            <div class="playlist">
+              <div class="playlist__meta">
+                <div class="playlist__icon">S</div>
+                <div>
+                  <div class="playlist__title">Descubrimiento semanal</div>
+                  <div class="playlist__info">30 temas · Actualizada hace 2 días</div>
+                </div>
+              </div>
+              <div>
+                <span class="badge">Spotify → YT Music</span>
+                <button class="btn btn--primary" style="margin-left:0.4rem;">
+                  <span>Transferir</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="playlist">
+              <div class="playlist__meta">
+                <div class="playlist__icon">V</div>
+                <div>
+                  <div class="playlist__title">Viaje en auto</div>
+                  <div class="playlist__info">64 temas · Colaborativa</div>
+                </div>
+              </div>
+              <div>
+                <span class="badge">Pendiente</span>
+                <button class="btn btn--primary" style="margin-left:0.4rem;">
+                  <span>Transferir</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="playlist">
+              <div class="playlist__meta">
+                <div class="playlist__icon">F</div>
+                <div>
+                  <div class="playlist__title">Favoritas de siempre</div>
+                  <div class="playlist__info">120 temas · Solo tú</div>
+                </div>
+              </div>
+              <div>
+                <span class="badge">Sincronizada</span>
+                <button class="btn btn--primary" style="margin-left:0.4rem;">
+                  <span>Reejecutar</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <aside class="card">
+          <header class="card__header">
+            <div>
+              <h2 class="card__title">Actividad reciente</h2>
+              <p class="card__subtitle">Resumen de tus últimas transferencias.</p>
+            </div>
+          </header>
+
+          <div class="activity-list">
+            <div class="activity">
+              <div class="activity__title">“Viaje en auto”</div>
+              <div class="activity__meta">54 de 64 temas copiados</div>
+              <div class="activity__status">Completada · Hace 10 min</div>
+            </div>
+            <div class="activity">
+              <div class="activity__title">“Descubrimiento semanal”</div>
+              <div class="activity__meta">30 de 30 temas copiados</div>
+              <div class="activity__status">Completada · Hoy 9:12</div>
+            </div>
+            <div class="activity">
+              <div class="activity__title">“Focus ambient”</div>
+              <div class="activity__meta">Error en 3 temas</div>
+              <div class="activity__status" style="color: var(--danger-color);">
+                Finalizada con incidencias
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Music Transfer · Spotify → YouTube Music · facore.cloud
+  </footer>
+</body>
+</html>

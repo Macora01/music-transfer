@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Tus playlists de Spotify</h1>
+  <a href="{{ url_for('dashboard') }}">Volver</a>
+  <ul>
+    {% for p in playlists %}
+      <li>
+        {{ p.name or p['name'] }} ({{ p.tracks.total or p['tracks']['total'] }} temas)
+        <form method="post" action="{{ url_for('transfer_playlist', playlist_id=p.id or p['id']) }}" style="display:inline">
+          <button type="submit">Enviar a YouTube Music</button>
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

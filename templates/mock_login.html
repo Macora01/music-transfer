@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Mock login (solo pruebas)</h1>
+  <form method="post">
+    <label>User ID (uuid de Supabase)</label><br>
+    <input type="text" name="user_id" required>
+    <button type="submit">Login</button>
+  </form>
+{% endblock %}

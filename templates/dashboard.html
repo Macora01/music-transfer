@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Dashboard</h1>
+  <p>Bienvenido.</p>
+  <a href="{{ url_for('playlists') }}">Ver playlists de Spotify</a> |
+  <a href="{{ url_for('spotify_login') }}">Conectar/renovar Spotify</a> |
+  <a href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}
