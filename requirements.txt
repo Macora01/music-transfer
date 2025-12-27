@@ -4,4 +4,4 @@ requests==2.32.3
 ytmusicapi==1.9.0
 gunicorn==21.2.0
 httpx==0.24.1
-gotrue==2.13.0
+gotrue==2.12.4
