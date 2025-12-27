@@ -1,0 +1,534 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "get_service_client",
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "isExtraImport": true,
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_service_client",
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "isExtraImport": true,
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_authorize_url",
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "isExtraImport": true,
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "exchange_code_for_token",
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "isExtraImport": true,
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "save_tokens_for_user",
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "isExtraImport": true,
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_playlists",
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "isExtraImport": true,
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_playlist_tracks",
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "isExtraImport": true,
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "create_playlist_and_add_tracks",
+        "importPath": "ytmusic_client",
+        "description": "ytmusic_client",
+        "isExtraImport": true,
+        "detail": "ytmusic_client",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "auth_middleware",
+        "description": "auth_middleware",
+        "isExtraImport": true,
+        "detail": "auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "YTMusic",
+        "importPath": "ytmusicapi",
+        "description": "ytmusicapi",
+        "isExtraImport": true,
+        "detail": "ytmusicapi",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    \"\"\"\n    Página inicial muy simple. En una versión real, aquí se integraría el widget de Supabase Auth\n    (por ejemplo, un frontend con Supabase JS que al loguear llame a un endpoint para registrar el user_id en session).\n    \"\"\"\n    user_id = session.get(\"user_id\")\n    return render_template(\"index.html\", user_id=user_id)\n@app.route(\"/mock-login\", methods=[\"GET\", \"POST\"])\ndef mock_login():\n    \"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "mock_login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def mock_login():\n    \"\"\"\n    Solo para pruebas locales: se fija manualmente un user_id.\n    Luego se reemplaza por Supabase Auth real.\n    \"\"\"\n    if request.method == \"POST\":\n        user_id = request.form.get(\"user_id\")\n        if user_id:\n            session[\"user_id\"] = user_id\n            flash(\"Sesión iniciada (mock).\", \"success\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def logout():\n    session.clear()\n    flash(\"Sesión cerrada.\", \"info\")\n    return redirect(url_for(\"index\"))\n@app.route(\"/dashboard\")\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/auth/spotify/login\")\n@login_required",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/auth/spotify/login\")\n@login_required\ndef spotify_login():\n    state = \"xyz\"  # se puede generar aleatorio y guardar en session\n    url = get_authorize_url(state)\n    return redirect(url)\n@app.route(\"/auth/spotify/callback\")\n@login_required",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "spotify_login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def spotify_login():\n    state = \"xyz\"  # se puede generar aleatorio y guardar en session\n    url = get_authorize_url(state)\n    return redirect(url)\n@app.route(\"/auth/spotify/callback\")\n@login_required\ndef spotify_callback():\n    error = request.args.get(\"error\")\n    if error:\n        flash(f\"Error de Spotify: {error}\", \"danger\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "spotify_callback",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def spotify_callback():\n    error = request.args.get(\"error\")\n    if error:\n        flash(f\"Error de Spotify: {error}\", \"danger\")\n        return redirect(url_for(\"dashboard\"))\n    code = request.args.get(\"code\")\n    if not code:\n        flash(\"Falta 'code' en el callback de Spotify.\", \"danger\")\n        return redirect(url_for(\"dashboard\"))\n    token_data = exchange_code_for_token(code)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "playlists",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def playlists():\n    user_id = session[\"user_id\"]\n    pls = get_user_playlists(user_id)\n    return render_template(\"playlists.html\", playlists=pls)\n@app.route(\"/transfer/<playlist_id>\", methods=[\"POST\"])\n@login_required\ndef transfer_playlist(playlist_id):\n    user_id = session[\"user_id\"]\n    svc = get_service_client()\n    # Obtener info de la playlist y sus tracks en Spotify",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "transfer_playlist",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def transfer_playlist(playlist_id):\n    user_id = session[\"user_id\"]\n    svc = get_service_client()\n    # Obtener info de la playlist y sus tracks en Spotify\n    playlists = get_user_playlists(user_id)\n    playlist = next((p for p in playlists if p[\"id\"] == playlist_id), None)\n    if not playlist:\n        flash(\"Playlist no encontrada.\", \"danger\")\n        return redirect(url_for(\"playlists\"))\n    tracks_raw = get_playlist_tracks(user_id, playlist_id)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.environ.get(\"FLASK_SECRET_KEY\", \"change-me\")\n@app.route(\"/\")\ndef index():\n    \"\"\"\n    Página inicial muy simple. En una versión real, aquí se integraría el widget de Supabase Auth\n    (por ejemplo, un frontend con Supabase JS que al loguear llame a un endpoint para registrar el user_id en session).\n    \"\"\"\n    user_id = session.get(\"user_id\")\n    return render_template(\"index.html\", user_id=user_id)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.secret_key = os.environ.get(\"FLASK_SECRET_KEY\", \"change-me\")\n@app.route(\"/\")\ndef index():\n    \"\"\"\n    Página inicial muy simple. En una versión real, aquí se integraría el widget de Supabase Auth\n    (por ejemplo, un frontend con Supabase JS que al loguear llame a un endpoint para registrar el user_id en session).\n    \"\"\"\n    user_id = session.get(\"user_id\")\n    return render_template(\"index.html\", user_id=user_id)\n@app.route(\"/mock-login\", methods=[\"GET\", \"POST\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "kind": 2,
+        "importPath": "auth_middleware",
+        "description": "auth_middleware",
+        "peekOfCode": "def login_required(f):\n    @wraps(f)\n    def wrapper(*args, **kwargs):\n        user_id = session.get(\"user_id\")\n        if not user_id:\n            # TODO: integrar realmente con Supabase Auth (ver nota en app.py)\n            return redirect(url_for(\"index\"))\n        return f(*args, **kwargs)\n    return wrapper",
+        "detail": "auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_authorize_url",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n        \"scope\": SCOPES,\n        \"state\": state,\n        \"show_dialog\": \"false\",\n    }\n    from urllib.parse import urlencode",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "exchange_code_for_token",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def exchange_code_for_token(code: str) -> dict:\n    data = {\n        \"grant_type\": \"authorization_code\",\n        \"code\": code,\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n    }\n    headers = _basic_auth_header()\n    resp = requests.post(TOKEN_URL, data=data, headers=headers)\n    resp.raise_for_status()\n    token = resp.json()",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "refresh_access_token",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def refresh_access_token(refresh_token: str) -> dict:\n    data = {\n        \"grant_type\": \"refresh_token\",\n        \"refresh_token\": refresh_token,\n    }\n    headers = _basic_auth_header()\n    resp = requests.post(TOKEN_URL, data=data, headers=headers)\n    resp.raise_for_status()\n    return resp.json()\ndef save_tokens_for_user(user_id: str, token_data: dict):",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "save_tokens_for_user",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def save_tokens_for_user(user_id: str, token_data: dict):\n    svc = get_service_client()\n    expires_in = token_data.get(\"expires_in\", 3600)\n    expires_at = datetime.utcnow() + timedelta(seconds=expires_in)\n    payload = {\n        \"user_id\": user_id,\n        \"access_token\": token_data[\"access_token\"],\n        \"refresh_token\": token_data.get(\"refresh_token\"),\n        \"scope\": token_data.get(\"scope\"),\n        \"token_type\": token_data.get(\"token_type\"),",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_valid_access_token",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def get_valid_access_token(user_id: str) -> str | None:\n    svc = get_service_client()\n    res = svc.table(\"spotify_tokens\").select(\"*\").eq(\"user_id\", user_id).single().execute()\n    data = res.data\n    if not data:\n        return None\n    expires_at = datetime.fromisoformat(data[\"expires_at\"].replace(\"Z\", \"+00:00\"))\n    if datetime.utcnow() >= expires_at - timedelta(seconds=60):\n        # refresh\n        new_token = refresh_access_token(data[\"refresh_token\"])",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_playlists",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def get_user_playlists(user_id: str) -> list[dict]:\n    access_token = get_valid_access_token(user_id)\n    if not access_token:\n        return []\n    headers = _auth_headers(access_token)\n    playlists = []\n    url = f\"{API_BASE}/me/playlists?limit=50\"\n    while url:\n        resp = requests.get(url, headers=headers)\n        resp.raise_for_status()",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_playlist_tracks",
+        "kind": 2,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "def get_playlist_tracks(user_id: str, playlist_id: str) -> list[dict]:\n    access_token = get_valid_access_token(user_id)\n    if not access_token:\n        return []\n    headers = _auth_headers(access_token)\n    tracks = []\n    url = f\"{API_BASE}/playlists/{playlist_id}/tracks?limit=100\"\n    while url:\n        resp = requests.get(url, headers=headers)\n        resp.raise_for_status()",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "SPOTIFY_CLIENT_ID",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "SPOTIFY_CLIENT_ID = os.environ[\"SPOTIFY_CLIENT_ID\"]\nSPOTIFY_CLIENT_SECRET = os.environ[\"SPOTIFY_CLIENT_SECRET\"]\nSPOTIFY_REDIRECT_URI = os.environ[\"SPOTIFY_REDIRECT_URI\"]\nAUTH_URL = \"https://accounts.spotify.com/authorize\"\nTOKEN_URL = \"https://accounts.spotify.com/api/token\"\nAPI_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "SPOTIFY_CLIENT_SECRET",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "SPOTIFY_CLIENT_SECRET = os.environ[\"SPOTIFY_CLIENT_SECRET\"]\nSPOTIFY_REDIRECT_URI = os.environ[\"SPOTIFY_REDIRECT_URI\"]\nAUTH_URL = \"https://accounts.spotify.com/authorize\"\nTOKEN_URL = \"https://accounts.spotify.com/api/token\"\nAPI_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "SPOTIFY_REDIRECT_URI",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "SPOTIFY_REDIRECT_URI = os.environ[\"SPOTIFY_REDIRECT_URI\"]\nAUTH_URL = \"https://accounts.spotify.com/authorize\"\nTOKEN_URL = \"https://accounts.spotify.com/api/token\"\nAPI_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_URL",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "AUTH_URL = \"https://accounts.spotify.com/authorize\"\nTOKEN_URL = \"https://accounts.spotify.com/api/token\"\nAPI_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n        \"scope\": SCOPES,",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_URL",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "TOKEN_URL = \"https://accounts.spotify.com/api/token\"\nAPI_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n        \"scope\": SCOPES,\n        \"state\": state,",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "API_BASE",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "API_BASE = \"https://api.spotify.com/v1\"\nSCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n        \"scope\": SCOPES,\n        \"state\": state,\n        \"show_dialog\": \"false\",",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "SCOPES",
+        "kind": 5,
+        "importPath": "spotify_client",
+        "description": "spotify_client",
+        "peekOfCode": "SCOPES = \"playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private\"\ndef get_authorize_url(state: str) -> str:\n    params = {\n        \"client_id\": SPOTIFY_CLIENT_ID,\n        \"response_type\": \"code\",\n        \"redirect_uri\": SPOTIFY_REDIRECT_URI,\n        \"scope\": SCOPES,\n        \"state\": state,\n        \"show_dialog\": \"false\",\n    }",
+        "detail": "spotify_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_service_client",
+        "kind": 2,
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "peekOfCode": "def get_service_client() -> Client:\n    \"\"\"\n    Devuelve un cliente con permisos de servicio para operaciones de backend\n    (usar solo en el servidor, nunca en frontend).\n    \"\"\"\n    if not SUPABASE_SERVICE_ROLE_KEY:\n        return supabase\n    return create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)",
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "SUPABASE_URL",
+        "kind": 5,
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "peekOfCode": "SUPABASE_URL = os.environ[\"SUPABASE_URL\"]\nSUPABASE_ANON_KEY = os.environ[\"SUPABASE_ANON_KEY\"]\nSUPABASE_SERVICE_ROLE_KEY = os.environ.get(\"SUPABASE_SERVICE_ROLE_KEY\")\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)\ndef get_service_client() -> Client:\n    \"\"\"\n    Devuelve un cliente con permisos de servicio para operaciones de backend\n    (usar solo en el servidor, nunca en frontend).\n    \"\"\"\n    if not SUPABASE_SERVICE_ROLE_KEY:",
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "SUPABASE_ANON_KEY",
+        "kind": 5,
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "peekOfCode": "SUPABASE_ANON_KEY = os.environ[\"SUPABASE_ANON_KEY\"]\nSUPABASE_SERVICE_ROLE_KEY = os.environ.get(\"SUPABASE_SERVICE_ROLE_KEY\")\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)\ndef get_service_client() -> Client:\n    \"\"\"\n    Devuelve un cliente con permisos de servicio para operaciones de backend\n    (usar solo en el servidor, nunca en frontend).\n    \"\"\"\n    if not SUPABASE_SERVICE_ROLE_KEY:\n        return supabase",
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "SUPABASE_SERVICE_ROLE_KEY",
+        "kind": 5,
+        "importPath": "supabase_client",
+        "description": "supabase_client",
+        "peekOfCode": "SUPABASE_SERVICE_ROLE_KEY = os.environ.get(\"SUPABASE_SERVICE_ROLE_KEY\")\nsupabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)\ndef get_service_client() -> Client:\n    \"\"\"\n    Devuelve un cliente con permisos de servicio para operaciones de backend\n    (usar solo en el servidor, nunca en frontend).\n    \"\"\"\n    if not SUPABASE_SERVICE_ROLE_KEY:\n        return supabase\n    return create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)",
+        "detail": "supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_client",
+        "kind": 2,
+        "importPath": "ytmusic_client",
+        "description": "ytmusic_client",
+        "peekOfCode": "def get_client() -> YTMusic:\n    # YTMUSIC_COOKIE debe contener el contenido del header \"Cookie\" exportado desde tu navegador\n    return YTMusic(headers_raw=YTMUSIC_COOKIE)\ndef create_playlist_and_add_tracks(title: str, description: str, tracks: list[dict]) -> tuple[str, int, int]:\n    \"\"\"\n    tracks: lista de dicts con campos 'name' y 'artists' (lista de nombres).\n    Devuelve: (playlist_id, success_count, fail_count)\n    \"\"\"\n    ytm = get_client()\n    playlist_id = ytm.create_playlist(title=title, description=description, privacy_status=\"PRIVATE\")",
+        "detail": "ytmusic_client",
+        "documentation": {}
+    },
+    {
+        "label": "create_playlist_and_add_tracks",
+        "kind": 2,
+        "importPath": "ytmusic_client",
+        "description": "ytmusic_client",
+        "peekOfCode": "def create_playlist_and_add_tracks(title: str, description: str, tracks: list[dict]) -> tuple[str, int, int]:\n    \"\"\"\n    tracks: lista de dicts con campos 'name' y 'artists' (lista de nombres).\n    Devuelve: (playlist_id, success_count, fail_count)\n    \"\"\"\n    ytm = get_client()\n    playlist_id = ytm.create_playlist(title=title, description=description, privacy_status=\"PRIVATE\")\n    success = 0\n    fail = 0\n    for track in tracks:",
+        "detail": "ytmusic_client",
+        "documentation": {}
+    },
+    {
+        "label": "YTMUSIC_COOKIE",
+        "kind": 5,
+        "importPath": "ytmusic_client",
+        "description": "ytmusic_client",
+        "peekOfCode": "YTMUSIC_COOKIE = os.environ.get(\"YTMUSIC_COOKIE\")\ndef get_client() -> YTMusic:\n    # YTMUSIC_COOKIE debe contener el contenido del header \"Cookie\" exportado desde tu navegador\n    return YTMusic(headers_raw=YTMUSIC_COOKIE)\ndef create_playlist_and_add_tracks(title: str, description: str, tracks: list[dict]) -> tuple[str, int, int]:\n    \"\"\"\n    tracks: lista de dicts con campos 'name' y 'artists' (lista de nombres).\n    Devuelve: (playlist_id, success_count, fail_count)\n    \"\"\"\n    ytm = get_client()",
+        "detail": "ytmusic_client",
+        "documentation": {}
+    }
+]
